@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "3745195607",
+    "project_id": "artesanias-304016",
+    "storage_bucket": "artesanias-304016.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:3745195607:android:77de9ce26004dafe272512",
+        "android_client_info": {
+          "package_name": "com.artesaniasclient"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "3745195607-oje58mbcde91pq3k9dt8pfkkl58eikcl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD2C1Yg3h0WrmQ-DWnRW03CgulvjihvQPY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "3745195607-oje58mbcde91pq3k9dt8pfkkl58eikcl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

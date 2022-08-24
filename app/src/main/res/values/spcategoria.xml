@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categoria" >
+        <item>Varios</item>
+        <item>Madera</item>
+        <item>Fibras Vegetales</item>
+        <item>Mármol, piedra y vidrio</item>
+        <item>Metal</item>
+        <item>Piel y Cuero</item>
+        <item>Textil</item>
+        <item>Joyería</item>
+        <item>Instrumentos musicales</item>
+        <item>Cerámica</item>
+    </string-array>
+</resources>

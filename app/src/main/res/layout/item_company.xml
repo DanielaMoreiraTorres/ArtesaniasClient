@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardViewCatalog"
+        style="@style/CardView.Light"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="5dp"
+        app:cardCornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/lblBussinesName"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Empresa:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtbussinessname"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/lblBussinesName"
+                android:text="Nombre de la Empresa" />
+
+            <TextView
+                android:id="@+id/lblRuc"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtbussinessname"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ruc:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtruc"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtbussinessname"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/lblRuc"
+                android:text="Ruc de la empresa" />
+
+            <TextView
+                android:id="@+id/lblCity"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtruc"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Ciudad:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtcity"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtruc"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/lblCity"
+                android:text="Sitio o lugar de la empresa" />
+
+            <TextView
+                android:id="@+id/lblAddress"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcity"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:text="Dirección:"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txtaddress"
+                style="@style/TextAppearance.AppCompat.Body1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/txtcity"
+                android:layout_marginStart="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="10dp"
+                android:layout_toEndOf="@+id/lblAddress"
+                android:text="Localización de la empresa" />
+
+        </RelativeLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>
